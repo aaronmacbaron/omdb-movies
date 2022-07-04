@@ -26,6 +26,7 @@ On the frontend you can search through the OMDB API by simply using the search b
 **Database** : 
 
  - Need a running mysql database with a user "root" and an empty password. (These can be changed in the laravel .env file.
+ - There also needs to be an empty database instance named movies as this is what laravel will use for the migrations
  -  In the movies-backend directory you have to run `php artisan migrate` this will run all the database migrations.
 
 **PHP** :
